@@ -5,7 +5,6 @@ import validator from 'validator'
 import { setError, removeError} from '../../actions/uiError'
 import {startRegisterWithEmailPasswordName} from '../../actions/auth'
 import { useDispatch, useSelector } from 'react-redux'
-import logo from '../../asset/logo.png'
     
 
 const Registro = () => {
@@ -61,7 +60,7 @@ const Registro = () => {
                         </div>
                     )
                 }
-                <img className="logo" src={logo} alt="" />
+                <img className="logo" src="https://c.tenor.com/4b9_TFy7mF4AAAAM/pokeball.gif" alt="" />
 
                 <h1 className="title">Registrate</h1>
 
