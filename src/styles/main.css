@@ -1,0 +1,10 @@
+body{
+    background: black;
+}
+.log{
+    border-radius: 150px;
+    padding: 10px
+}
+.color {
+    background: linear-gradient(45deg, black , white, black);
+}
